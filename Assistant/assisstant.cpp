@@ -16,8 +16,8 @@ void wishme()
 
     else if (time-> tm_hour >= 12 && time->tm_hour <= 16)
     {
-        cout<<" afternoon sir"<<endl;
-        string phrase = " afternoon sir";
+        cout<<" good afternoon sir"<<endl;
+        string phrase = " good afternoon sir";
         string command = "espeak \"" + phrase + "\"";
         const char *charcommand = command.c_str();
         system(charcommand);
